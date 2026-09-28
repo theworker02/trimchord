@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/trimchord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trim and reshape chord text streams with deterministic transforms.",
+  "bin": {
+    "trimchord": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/trimchord.git"
+  },
+  "homepage": "https://theworker02.github.io/trimchord/",
+  "keywords": [
+    "trim",
+    "chord",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
